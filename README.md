@@ -19,10 +19,6 @@ dates = pd.date_range('20201021', periods=6)
 dates
 ```
 ```
-dates = pd.date_range('20201021', periods=6)
-dates
-```
-```
 df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 df
 ```
