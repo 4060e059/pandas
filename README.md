@@ -19,8 +19,8 @@ dates = pd.date_range('20201021', periods=6)
 dates
 ```
 ### DataFrame
-random.randn()  用來隨機建立資料
-index=dates,    顯示日期
+##### random.randn()  用來隨機建立資料
+##### index=dates,    顯示日期
 ```
 df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD'))
 df
