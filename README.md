@@ -2,9 +2,16 @@
 ```
 https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 ```
-# 小考範例
+# 
 ```
 import numpy as np
 import pandas as pd
 ```
+#Object creation
+```
+s = pd.Series([1, 3, 5, np.nan, 6, 8])
+s
+```
+```
 
+```
