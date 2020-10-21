@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 ```
 ## Object creation
-### 數值值列表，用熊貓創建，默認整數
+### 數值值列表，用熊貓創建，默認整數索引
 ```
 s = pd.Series([1, 3, 5, np.nan, 6, 8])
 s
