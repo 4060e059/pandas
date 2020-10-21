@@ -13,7 +13,7 @@ import pandas as pd
 s = pd.Series([1, 3, 5, np.nan, 6, 8])
 s
 ```
-# date_range
+### date_range
 ```
 dates = pd.date_range('20201021', periods=6)
 dates
