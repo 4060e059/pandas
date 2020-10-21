@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 ```
 ## Object creation
-### 數值直列表，用熊貓創建
+### 數值值列表，用熊貓創建
 ```
 s = pd.Series([1, 3, 5, np.nan, 6, 8])
 s
